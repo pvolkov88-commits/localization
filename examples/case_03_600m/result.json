@@ -1,0 +1,47 @@
+{
+  "crs_epsg": 4326,
+  "lat_deg": 59.93383631662595,
+  "lon_deg": 30.359981536865234,
+  "delta_lat_deg": 0.04173433152823236,
+  "delta_lon_deg": 0.044803635102475425,
+  "confidence": 0.8129721177233891,
+  "processing_time_ms": 1336.5,
+  "diagnostics": {
+    "gsd_m": 1.3128891341432056,
+    "map_zoom": 14,
+    "planned_zoom": 16,
+    "search_radius_m": 6000.0,
+    "hfov_deg": 70.0,
+    "vfov_deg": 70.0,
+    "map_source": "esri-world-imagery",
+    "map_size_px": [
+      2816,
+      2816
+    ],
+    "method": "coarse_plus_features",
+    "coarse_score": 0.10706979036331177,
+    "n_inliers": 325,
+    "n_matches": 330,
+    "inlier_ratio": 0.9848484848484849,
+    "residual_px": 0.1558554321527481,
+    "affine_scale": 1.188973316396643,
+    "map_scale": 0.9090909090909091,
+    "feature_backend": "sift",
+    "map_pixel_x": 1975.4248046875,
+    "map_pixel_y": 492.615966796875,
+    "yaw_applied_deg": -40.0,
+    "rotation_matrix": [
+      [
+        0.766044443118978,
+        -0.6427876096865393,
+        280.5578133016196
+      ],
+      [
+        0.6427876096865393,
+        0.766044443118978,
+        -130.82625689776552
+      ]
+    ]
+  },
+  "error_vs_expected_m": 0.47
+}

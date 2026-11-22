@@ -1,0 +1,8 @@
+{
+  "lat_deg": 55.7117186278538,
+  "lon_deg": 37.52999424934387,
+  "requested_true_lat_deg": 55.703,
+  "requested_true_lon_deg": 37.53,
+  "prior_error_m": 2000,
+  "expect_success": true
+}

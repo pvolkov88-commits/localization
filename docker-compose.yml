@@ -1,0 +1,10 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      MAP_USE_STUB: "false"
+      TILE_CACHE_DIR: /app/.cache/tiles
+    volumes:
+      - ./.cache:/app/.cache
