@@ -1,0 +1,9 @@
+# Optional deps for notebooks/superpoint_demo.ipynb
+torch>=2.0.0
+torchvision>=0.15.0
+kornia>=0.7.0
+matplotlib>=3.8.0
+
+# LightGlue: clone once (already in third_party/LightGlue if setup ran)
+#   git clone --depth 1 https://github.com/cvg/LightGlue.git third_party/LightGlue
+#   pip install --user -e third_party/LightGlue --no-deps

@@ -61,7 +61,12 @@ class MapRaster:
         merc_n = _lat_to_mercator_y(self.north)
         merc_s = _lat_to_mercator_y(self.south)
         merc = _lat_to_mercator_y(lat)
-        y = (merc - merc_n) / max(merc_s - merc_n, 1e-15) * self.height
+        # Keep the sign of (merc_s - merc_n): north > south ⇒ negative delta.
+        # max(..., 1e-15) would clamp that to +1e-15 and explode y.
+        den = merc_s - merc_n
+        if abs(den) < 1e-15:
+            den = 1e-15
+        y = (merc - merc_n) / den * self.height
         return x, y
 
 

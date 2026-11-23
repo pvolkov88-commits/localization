@@ -11,3 +11,7 @@ venv/
 .vscode/
 dist/
 build/
+
+third_party/
+notebooks/artifacts/
+
